@@ -2,6 +2,10 @@ module Lir.Validate (
     allMessages
   , allValid
   , runValidation
+  , runValidation'
+  , validate
+  , defaultResult
+  , applyRule
 ) where
 
 import Control.Monad.Eff (Eff)
