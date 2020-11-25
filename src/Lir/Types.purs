@@ -1,4 +1,4 @@
-module Types where
+module Lir.Types where
 
 import Foreign (Foreign)
 import Prelude (class Semigroup, (<>), ($))

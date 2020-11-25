@@ -1,4 +1,4 @@
-module Interop where
+module Lir.Interop where
 
 import Effect (Effect)
 import Foreign (Foreign)

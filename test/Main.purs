@@ -1,6 +1,6 @@
 module Test.Main where
 
-import Constraints
+import Lir.Constraints
 import Effect (Effect)
 import Effect.Aff (launchAff_)
 import Foreign (unsafeToForeign)

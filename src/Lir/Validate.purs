@@ -1,4 +1,4 @@
-module Validate (
+module Lir.Validate (
     allMessages
   , allValid
   , runValidation
@@ -9,9 +9,9 @@ import Effect.Unsafe (unsafePerformEffect)
 import Data.Array (length)
 import Foreign (Foreign)
 import Data.Traversable (foldl, sequence)
-import Interop (getValue)
+import Lir.Interop (getValue)
 import Prelude (bind, pure, map, (==), ($), (>>>), (>>=), (<>), (<$>))
-import Types (Validation, Rule, ValidationConfig, ResultRecord, Result(..), Selector, unResult)
+import Lir.Types (Validation, Rule, ValidationConfig, ResultRecord, Result(..), Selector, unResult)
 
 -- | Pull all messages out of validation results.
 allMessages :: Array ResultRecord -> Array String
