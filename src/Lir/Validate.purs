@@ -2,6 +2,7 @@ module Lir.Validate (
     allMessages
   , allValid
   , runValidation
+  , validate
 ) where
 
 import Effect (Effect)
